@@ -1,0 +1,12 @@
+{
+  "A": {
+    "project_source_files": 264,
+    "association_basis": "Native syn/phy registered file references match current .al; current copied-source hashes match prior package; no user_source modification time after run start. This is not a signed build-time input manifest.",
+    "al_save_timestamp_note": ".al was saved after synthesis began; its current bytes match the prior package original-source SHA256, and source-reference sets match both native run snapshots."
+  },
+  "B": {
+    "project_source_files": 151,
+    "association_basis": "Native syn/phy registered file references match current .al; current copied-source hashes match prior package; no user_source modification time after run start. This is not a signed build-time input manifest.",
+    "al_save_timestamp_note": ".al was saved after synthesis began; its current bytes match the prior package original-source SHA256, and source-reference sets match both native run snapshots."
+  }
+}

@@ -1,0 +1,843 @@
+Created by          : Tang Dynasty v6.2.168116
+                    : Copyright (c) 2012-2025 Anlogic Inc.
+Generated           : Wed Nov  4 17:45:28 2026
+
+Top Model           : design_top_wrapper
+Device              : PH1P35MDG324
+Speed               : 3
+STA coverage        : 97.32%
+Constraint File     : ${PROJECT_ROOT}/1080p+720p_PhaseB2_dev/td_project/camera_to_dsi_display.sdc;
+Confidence          : Routed
+Check Corner        : Both (Slow and Fast)
+CRPR Enabled        : Yes
+Report Scheme       : 10 end point(s) per path group, 1 path(s) per end point
+
+
+Check Status
+-------------
+
+Corner   | Max      Min     
+------------------------------------
+Slow     | yes      yes     
+Fast     | yes      yes     
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+		        32            0            0           32   set_max_delay -from [get_regs {u_mipi_frame_timing/latest_gray[*]}] -to [get_regs {u_mipi_latency_measure/frames/gray_meta[*]}] -datapath_only 6.000
+		       270            0            0          270   set_max_delay -from [get_regs {u_uart_frame_bridge/forward_mailbox/held[*]}] -to [get_regs {u_uart_frame_bridge/forward_mailbox/d_data[*]}] -datapath_only 10.000
+		        60            0            0           60   set_max_delay -from [get_regs {u_latency_timebase/gray[*]}] -to [get_regs {u_mipi_frame_timing/time_meta[*] u_mipi_latency_measure/elapsed/time_meta[*]}] -datapath_only 6.000
+		        40            0            0           40   set_max_delay -from [get_regs {u_mipi_frame_timing/isp_descriptor[*]}] -to [get_regs {u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_valid}] -datapath_only 6.000
+		         6            0            0            6   set_max_delay -from [get_regs {u_key2_mosaic_size_control/payload[*]}] -to [get_regs {u_key2_mosaic_size_control/O_strength_pixel[*] u_key2_mosaic_size_control/O_motion_overlay_pixel}] -datapath_only 10.000
+		        18            0            0           18   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.032
+		        36            0            0           36   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 13.033
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+Status of timing exceptions
+--------------------------------------------------
+
+MCP/SMD Details
+--------------------
+
+
+Constraint     :   set_max_delay -from [get_regs {u_mipi_frame_timing/latest_gray[*]}] -to [get_regs {u_mipi_latency_measure/frames/gray_meta[*]}] -datapath_only 6.000
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           32
+Dominated      :            0,          0.0%
+Ignored        :           32,        100.0%
+               :           32, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs {u_uart_frame_bridge/forward_mailbox/held[*]}] -to [get_regs {u_uart_frame_bridge/forward_mailbox/d_data[*]}] -datapath_only 10.000
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :          270
+Dominated      :            0,          0.0%
+Ignored        :          270,        100.0%
+               :          270, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs {u_latency_timebase/gray[*]}] -to [get_regs {u_mipi_frame_timing/time_meta[*] u_mipi_latency_measure/elapsed/time_meta[*]}] -datapath_only 6.000
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           60
+Dominated      :            0,          0.0%
+Ignored        :           60,        100.0%
+               :           60, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs {u_mipi_frame_timing/isp_descriptor[*]}] -to [get_regs {u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_valid}] -datapath_only 6.000
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           40
+Dominated      :            0,          0.0%
+Ignored        :           40,        100.0%
+               :           40, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs {u_key2_mosaic_size_control/payload[*]}] -to [get_regs {u_key2_mosaic_size_control/O_strength_pixel[*] u_key2_mosaic_size_control/O_motion_overlay_pixel}] -datapath_only 10.000
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :            6
+Dominated      :            0,          0.0%
+Ignored        :            6,        100.0%
+               :            6, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.032
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           18
+Dominated      :            0,          0.0%
+Ignored        :           18,        100.0%
+               :           18, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 13.033
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           36
+Dominated      :            0,          0.0%
+Ignored        :           36,        100.0%
+               :           36, by set_clock_groups
+
+
+Details on timing exceptions
+--------------------------------------------------
+
+Timing details for constraint:
+	set_max_delay -from [get_regs {u_mipi_frame_timing/latest_gray[*]}] -to [get_regs {u_mipi_latency_measure/frames/gray_meta[*]}] -datapath_only 6.000
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     
+set_max_delay -from [get_regs {u_mipi_frame_timing/latest_gray[*]}] -to [get_regs {u_mipi_latency_measure/frames/gray_meta[*]}] -datapath_only 6.000
+
+Type           :     SMD
+
+Statistics:
+Max            : SWNS      0.000ns, STNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+Min            : HWNS      0.000ns, HTNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     Set Max Delay (Ignored)
+Constr         :     set_max_delay -from [get_regs {u_mipi_frame_timing/latest_gray[*]}] -to [get_regs {u_mipi_latency_measure/frames/gray_meta[*]}] -datapath_only 6.000
+
+Statistics:
+	Setup Check    :             16   end points,              32   paths
+----------------------------------------------------------------------------------------------------
+
+Max Delay Paths
+----------------------------------------------------------------------------------------------------
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[15]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[15]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z3                                        pin: u_mipi_frame_timing/capture_sequence_reg[15]_syn_2.oqa
+net (fo=2)                                                            net: u_mipi_frame_timing/capture_sequence[15],  ../../../user_source/hdl_source/mipi_frame_timing.v(55)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[15]_syn_2.ima
+reg                 x015y049z6                                        net: u_mipi_latency_measure/frames/gray_meta[15],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[15]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[15]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z3                                        pin: u_mipi_frame_timing/capture_sequence_reg[15]_syn_2.oqa
+net (fo=2)                                                            net: u_mipi_frame_timing/capture_sequence[15],  ../../../user_source/hdl_source/mipi_frame_timing.v(55)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[15]_syn_2.ima
+reg                 x015y049z6                                        net: u_mipi_latency_measure/frames/gray_meta[15],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[8]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[8]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z0                                        pin: u_mipi_frame_timing/capture_sequence_reg[8]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[8],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[8]_syn_2.ima
+reg                 x015y045z6                                        net: u_mipi_latency_measure/frames/gray_meta[8],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[8]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[8]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z0                                        pin: u_mipi_frame_timing/capture_sequence_reg[8]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[8],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[8]_syn_2.ima
+reg                 x015y045z6                                        net: u_mipi_latency_measure/frames/gray_meta[8],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[1]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[1]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y045z0                                        pin: u_mipi_frame_timing/capture_sequence_reg[1]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[1],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[1]_syn_2.ima
+reg                 x015y045z4                                        net: u_mipi_latency_measure/frames/gray_meta[1],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[1]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[1]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y045z0                                        pin: u_mipi_frame_timing/capture_sequence_reg[1]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[1],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[1]_syn_2.ima
+reg                 x015y045z4                                        net: u_mipi_latency_measure/frames/gray_meta[1],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[13]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[9]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z1                                        pin: u_mipi_frame_timing/capture_sequence_reg[13]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[9],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[9]_syn_2.ima
+reg                 x015y047z4                                        net: u_mipi_latency_measure/frames/gray_meta[9],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/capture_sequence_reg[13]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[9]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y046z1                                        pin: u_mipi_frame_timing/capture_sequence_reg[13]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[9],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[9]_syn_2.ima
+reg                 x015y047z4                                        net: u_mipi_latency_measure/frames/gray_meta[9],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/latest_gray_reg[2]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[2]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y045z5                                        pin: u_mipi_frame_timing/latest_gray_reg[2]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[2],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[2]_syn_2.ima
+reg                 x015y045z5                                        net: u_mipi_latency_measure/frames/gray_meta[2],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+Begin Point         : u_mipi_frame_timing/latest_gray_reg[2]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_mipi_latency_measure/frames/gray_meta_reg[2]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y045z5                                        pin: u_mipi_frame_timing/latest_gray_reg[2]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/latest_gray[2],  ../../../user_source/hdl_source/mipi_frame_timing.v(52)
+                                                                      pin: u_mipi_latency_measure/frames/gray_meta_reg[2]_syn_2.ima
+reg                 x015y045z5                                        net: u_mipi_latency_measure/frames/gray_meta[2],  ../../../user_source/hdl_source/frame_latency.v(8)
+
+
+
+
+
+Timing details for constraint:
+	set_max_delay -from [get_regs {u_uart_frame_bridge/forward_mailbox/held[*]}] -to [get_regs {u_uart_frame_bridge/forward_mailbox/d_data[*]}] -datapath_only 10.000
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     
+set_max_delay -from [get_regs {u_uart_frame_bridge/forward_mailbox/held[*]}] -to [get_regs {u_uart_frame_bridge/forward_mailbox/d_data[*]}] -datapath_only 10.000
+
+Type           :     SMD
+
+Statistics:
+Max            : SWNS      0.000ns, STNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+Min            : HWNS      0.000ns, HTNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     Set Max Delay (Ignored)
+Constr         :     set_max_delay -from [get_regs {u_uart_frame_bridge/forward_mailbox/held[*]}] -to [get_regs {u_uart_frame_bridge/forward_mailbox/d_data[*]}] -datapath_only 10.000
+
+Statistics:
+	Setup Check    :            135   end points,             270   paths
+----------------------------------------------------------------------------------------------------
+
+Max Delay Paths
+----------------------------------------------------------------------------------------------------
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[79]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x017y032z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[79]_syn_2.oqb
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[56],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.ima
+reg                 x017y035z0                                        net: u_uart_frame_bridge/forward_mailbox/d_data[56],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[79]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x017y032z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[79]_syn_2.oqb
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[56],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.ima
+reg                 x017y035z0                                        net: u_uart_frame_bridge/forward_mailbox/d_data[56],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[46]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.imb(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x017y032z7                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[46]_syn_2.oqa
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[46],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.imb
+reg                 x017y035z0                                        net: u_uart_frame_bridge/forward_mailbox/d_data[46],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[46]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.imb(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x017y032z7                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[46]_syn_2.oqa
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[46],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[56]_syn_2.imb
+reg                 x017y035z0                                        net: u_uart_frame_bridge/forward_mailbox/d_data[46],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[39]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x019y033z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[39]_syn_2.oqb
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[36],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.ima
+reg                 x020y034z2                                        net: u_uart_frame_bridge/forward_mailbox/d_data[36],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[39]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x019y033z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[39]_syn_2.oqb
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[36],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.ima
+reg                 x020y034z2                                        net: u_uart_frame_bridge/forward_mailbox/d_data[36],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[47]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.imb(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y035z4                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[47]_syn_2.oqb
+net (fo=1)                                                            net: u_uart_frame_bridge/forward_mailbox/held[32],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.imb
+reg                 x020y034z2                                        net: u_uart_frame_bridge/forward_mailbox/d_data[32],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[47]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.imb(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y035z4                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[47]_syn_2.oqb
+net (fo=1)                                                            net: u_uart_frame_bridge/forward_mailbox/held[32],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[36]_syn_2.imb
+reg                 x020y034z2                                        net: u_uart_frame_bridge/forward_mailbox/d_data[32],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[144]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[144]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y041z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[144]_syn_2.oqa
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[144],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[144]_syn_2.ima
+reg                 x013y038z7                                        net: u_uart_frame_bridge/forward_mailbox/d_data[144],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+Begin Point         : u_uart_frame_bridge/forward_mailbox/held_reg[144]_syn_2.clk(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+End Point           : u_uart_frame_bridge/forward_mailbox/d_data_reg[144]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x014y041z6                                        pin: u_uart_frame_bridge/forward_mailbox/held_reg[144]_syn_2.oqa
+net (fo=2)                                                            net: u_uart_frame_bridge/forward_mailbox/held[144],  ../../../user_source/hdl_source/uart_link.v(48)
+                                                                      pin: u_uart_frame_bridge/forward_mailbox/d_data_reg[144]_syn_2.ima
+reg                 x013y038z7                                        net: u_uart_frame_bridge/forward_mailbox/d_data[144],  ../../../user_source/hdl_source/uart_link.v(46)
+
+
+
+
+
+Timing details for constraint:
+	set_max_delay -from [get_regs {u_latency_timebase/gray[*]}] -to [get_regs {u_mipi_frame_timing/time_meta[*] u_mipi_latency_measure/elapsed/time_meta[*]}] -datapath_only 6.000
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     
+set_max_delay -from [get_regs {u_latency_timebase/gray[*]}] -to [get_regs {u_mipi_frame_timing/time_meta[*] u_mipi_latency_measure/elapsed/time_meta[*]}] -datapath_only 6.000
+
+Type           :     SMD
+
+Statistics:
+Max            : SWNS      0.000ns, STNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+Min            : HWNS      0.000ns, HTNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     Set Max Delay (Ignored)
+Constr         :     set_max_delay -from [get_regs {u_latency_timebase/gray[*]}] -to [get_regs {u_mipi_frame_timing/time_meta[*] u_mipi_latency_measure/elapsed/time_meta[*]}] -datapath_only 6.000
+
+Statistics:
+	Setup Check    :             40   end points,              60   paths
+----------------------------------------------------------------------------------------------------
+
+Max Delay Paths
+----------------------------------------------------------------------------------------------------
+Begin Point         : u_latency_timebase/gray_reg[8]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[7]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z0                                        pin: u_latency_timebase/gray_reg[8]_syn_2.oqa
+net (fo=2)                                                            net: latency_time_gray[7],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[7]_syn_2.ima
+reg                 x009y044z4                                        net: u_mipi_latency_measure/elapsed/time_meta[7],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+Begin Point         : u_latency_timebase/gray_reg[8]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[7]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z0                                        pin: u_latency_timebase/gray_reg[8]_syn_2.oqa
+net (fo=2)                                                            net: latency_time_gray[7],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[7]_syn_2.ima
+reg                 x009y044z4                                        net: u_mipi_latency_measure/elapsed/time_meta[7],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+Begin Point         : u_latency_timebase/gray_reg[17]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_frame_timing/time_meta_reg[16]_syn_2.ima(triggered by clock MIPI_RX_BYTE_CLK)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z3                                        pin: u_latency_timebase/gray_reg[17]_syn_2.oqa
+net (fo=2)                                                            net: latency_time_gray[16],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_frame_timing/time_meta_reg[16]_syn_2.ima
+reg                 x009y044z0                                        net: u_mipi_frame_timing/time_meta[16],  ../../../user_source/hdl_source/mipi_frame_timing.v(54)
+
+
+Begin Point         : u_latency_timebase/gray_reg[3]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_frame_timing/time_meta_reg[3]_syn_2.ima(triggered by clock MIPI_RX_BYTE_CLK)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z1                                        pin: u_latency_timebase/gray_reg[3]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[3],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_frame_timing/time_meta_reg[3]_syn_2.ima
+reg                 x012y045z0                                        net: u_mipi_frame_timing/time_meta[3],  ../../../user_source/hdl_source/mipi_frame_timing.v(54)
+
+
+Begin Point         : u_latency_timebase/gray_reg[8]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[8]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z0                                        pin: u_latency_timebase/gray_reg[8]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[8],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[8]_syn_2.ima
+reg                 x011y045z3                                        net: u_mipi_latency_measure/elapsed/time_meta[8],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+Begin Point         : u_latency_timebase/gray_reg[8]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[8]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z0                                        pin: u_latency_timebase/gray_reg[8]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[8],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[8]_syn_2.ima
+reg                 x011y045z3                                        net: u_mipi_latency_measure/elapsed/time_meta[8],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+Begin Point         : u_latency_timebase/gray_reg[17]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_frame_timing/time_meta_reg[17]_syn_2.ima(triggered by clock MIPI_RX_BYTE_CLK)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y045z3                                        pin: u_latency_timebase/gray_reg[17]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[17],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_frame_timing/time_meta_reg[17]_syn_2.ima
+reg                 x010y043z3                                        net: u_mipi_frame_timing/time_meta[17],  ../../../user_source/hdl_source/mipi_frame_timing.v(54)
+
+
+Begin Point         : u_latency_timebase/gray_reg[4]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_frame_timing/time_meta_reg[4]_syn_2.ima(triggered by clock MIPI_RX_BYTE_CLK)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y044z5                                        pin: u_latency_timebase/gray_reg[4]_syn_2.oqa
+net (fo=2)                                                            net: latency_time_gray[4],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_frame_timing/time_meta_reg[4]_syn_2.ima
+reg                 x010y043z4                                        net: u_mipi_frame_timing/time_meta[4],  ../../../user_source/hdl_source/mipi_frame_timing.v(54)
+
+
+Begin Point         : u_latency_timebase/gray_reg[9]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[9]_syn_2.ima(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y044z6                                        pin: u_latency_timebase/gray_reg[9]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[9],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[9]_syn_2.ima
+reg                 x011y045z2                                        net: u_mipi_latency_measure/elapsed/time_meta[9],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+Begin Point         : u_latency_timebase/gray_reg[9]_syn_2.clk(triggered by clock sys_clk_50m)
+End Point           : u_mipi_latency_measure/elapsed/time_meta_reg[9]_syn_2.ima(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x010y044z6                                        pin: u_latency_timebase/gray_reg[9]_syn_2.oqb
+net (fo=2)                                                            net: latency_time_gray[9],  ../../../user_source/hdl_source/design_top_wrapper.v(1061)
+                                                                      pin: u_mipi_latency_measure/elapsed/time_meta_reg[9]_syn_2.ima
+reg                 x011y045z2                                        net: u_mipi_latency_measure/elapsed/time_meta[9],  ../../../user_source/hdl_source/mipi_frame_timing.v(110)
+
+
+
+
+
+Timing details for constraint:
+	set_max_delay -from [get_regs {u_mipi_frame_timing/isp_descriptor[*]}] -to [get_regs {u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_valid}] -datapath_only 6.000
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     
+set_max_delay -from [get_regs {u_mipi_frame_timing/isp_descriptor[*]}] -to [get_regs {u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_valid}] -datapath_only 6.000
+
+Type           :     SMD
+
+Statistics:
+Max            : SWNS      0.000ns, STNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+Min            : HWNS      0.000ns, HTNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     Set Max Delay (Ignored)
+Constr         :     set_max_delay -from [get_regs {u_mipi_frame_timing/isp_descriptor[*]}] -to [get_regs {u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[*] u_video_in/g_capture_tracking$u_capture_frame_metadata/active_valid}] -datapath_only 6.000
+
+Statistics:
+	Setup Check    :             41   end points,              40   paths
+----------------------------------------------------------------------------------------------------
+
+Max Delay Paths
+----------------------------------------------------------------------------------------------------
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[29]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[5]_syn_2.ima(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x011y042z5                                        pin: u_mipi_frame_timing/isp_descriptor_reg[29]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[29],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[5]_syn_2.ima
+reg                 x010y042z7                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[5],  ../../../user_source/hdl_source/capture_frame_metadata.v(29)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[34]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[5]_syn_2.imb(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x013y044z0                                        pin: u_mipi_frame_timing/isp_descriptor_reg[34]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[34],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[5]_syn_2.imb
+reg                 x010y042z7                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[10],  ../../../user_source/hdl_source/capture_frame_metadata.v(29)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[6]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[6]_syn_2.ima(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x013y044z2                                        pin: u_mipi_frame_timing/isp_descriptor_reg[6]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[6],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[6]_syn_2.ima
+reg                 x015y042z3                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[6],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[5]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[6]_syn_2.imb(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x011y041z7                                        pin: u_mipi_frame_timing/isp_descriptor_reg[5]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[5],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[6]_syn_2.imb
+reg                 x015y042z3                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[5],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[19]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[19]_syn_2.ima(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x009y042z2                                        pin: u_mipi_frame_timing/isp_descriptor_reg[19]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[19],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[19]_syn_2.ima
+reg                 x010y042z4                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[19],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[19]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[19]_syn_2.imb(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x009y042z2                                        pin: u_mipi_frame_timing/isp_descriptor_reg[19]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[18],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[19]_syn_2.imb
+reg                 x010y042z4                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[18],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[38]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[14]_syn_2.ima(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x011y042z7                                        pin: u_mipi_frame_timing/isp_descriptor_reg[38]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[38],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[14]_syn_2.ima
+reg                 x012y043z6                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[14],  ../../../user_source/hdl_source/capture_frame_metadata.v(29)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[3]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[3]_syn_2.ima(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x009y042z3                                        pin: u_mipi_frame_timing/isp_descriptor_reg[3]_syn_2.oqb
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[3],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[3]_syn_2.ima
+reg                 x010y042z6                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[3],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[38]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[14]_syn_2.imb(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x011y042z7                                        pin: u_mipi_frame_timing/isp_descriptor_reg[38]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[35],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id_reg[14]_syn_2.imb
+reg                 x012y043z6                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_id[11],  ../../../user_source/hdl_source/capture_frame_metadata.v(29)
+
+
+Begin Point         : u_mipi_frame_timing/isp_descriptor_reg[3]_syn_2.clk(triggered by clock MIPI_RX_BYTE_CLK)
+End Point           : u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[3]_syn_2.imb(triggered by clock u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x009y042z3                                        pin: u_mipi_frame_timing/isp_descriptor_reg[3]_syn_2.oqa
+net (fo=1)                                                            net: u_mipi_frame_timing/isp_descriptor[2],  ../../../user_source/hdl_source/mipi_frame_timing.v(53)
+                                                                      pin: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time_reg[3]_syn_2.imb
+reg                 x010y042z6                                        net: u_video_in/g_capture_tracking$u_capture_frame_metadata/active_time[2],  ../../../user_source/hdl_source/capture_frame_metadata.v(30)
+
+
+
+
+
+Timing details for constraint:
+	set_max_delay -from [get_regs {u_key2_mosaic_size_control/payload[*]}] -to [get_regs {u_key2_mosaic_size_control/O_strength_pixel[*] u_key2_mosaic_size_control/O_motion_overlay_pixel}] -datapath_only 10.000
+--------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     
+set_max_delay -from [get_regs {u_key2_mosaic_size_control/payload[*]}] -to [get_regs {u_key2_mosaic_size_control/O_strength_pixel[*] u_key2_mosaic_size_control/O_motion_overlay_pixel}] -datapath_only 10.000
+
+Type           :     SMD
+
+Statistics:
+Max            : SWNS      0.000ns, STNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+Min            : HWNS      0.000ns, HTNS      0.000ns,         0 Viol Endpoints,         0 Total Endpoints,         0 Paths Analyzed
+----------------------------------------------------------------------------------------------------
+
+Max Paths
+----------------------------------------------------------------------------------------------------
+
+
+Min Paths
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Path Group     :     Set Max Delay (Ignored)
+Constr         :     set_max_delay -from [get_regs {u_key2_mosaic_size_control/payload[*]}] -to [get_regs {u_key2_mosaic_size_control/O_strength_pixel[*] u_key2_mosaic_size_control/O_motion_overlay_pixel}] -datapath_only 10.000
+
+Statistics:
+	Setup Check    :              3   end points,               6   paths
+----------------------------------------------------------------------------------------------------
+
+Max Delay Paths
+----------------------------------------------------------------------------------------------------
+Begin Point         : u_key2_mosaic_size_control/payload_reg[1]_syn_5.clk(triggered by clock pll_clk_100m)
+End Point           : u_video_algorithm_wrapper/reset_pending_reg_syn_3.imf(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z1                                        pin: u_key2_mosaic_size_control/payload_reg[1]_syn_5.oqb
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[1],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_video_algorithm_wrapper/reset_pending_reg_syn_3.imf
+LUT4 (reg)          x019y055z1                                        net: u_key2_mosaic_size_control/O_strength_pixel[1],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(19)
+
+
+Begin Point         : u_key2_mosaic_size_control/payload_reg[1]_syn_5.clk(triggered by clock pll_clk_100m)
+End Point           : u_video_algorithm_wrapper/reset_pending_reg_syn_3.imf(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z1                                        pin: u_key2_mosaic_size_control/payload_reg[1]_syn_5.oqb
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[1],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_video_algorithm_wrapper/reset_pending_reg_syn_3.imf
+LUT4 (reg)          x019y055z1                                        net: u_key2_mosaic_size_control/O_strength_pixel[1],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(19)
+
+
+Begin Point         : u_key2_mosaic_size_control/request_reg_syn_3.clk(triggered by clock pll_clk_100m)
+End Point           : u_key2_mosaic_size_control/acknowledge_reg_syn_3.ie(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z0                                        pin: u_key2_mosaic_size_control/request_reg_syn_3.oqb
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[2],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_key2_mosaic_size_control/acknowledge_reg_syn_3.ie
+LUT4 (reg)          x020y054z5                                        net: u_video_algorithm_wrapper/I_shadow_motion_overlay,  ../../../user_source/hdl_source/video_algorithm_wrapper.v(10)
+
+
+Begin Point         : u_key2_mosaic_size_control/request_reg_syn_3.clk(triggered by clock pll_clk_100m)
+End Point           : u_key2_mosaic_size_control/acknowledge_reg_syn_3.ie(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z0                                        pin: u_key2_mosaic_size_control/request_reg_syn_3.oqb
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[2],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_key2_mosaic_size_control/acknowledge_reg_syn_3.ie
+LUT4 (reg)          x020y054z5                                        net: u_video_algorithm_wrapper/I_shadow_motion_overlay,  ../../../user_source/hdl_source/video_algorithm_wrapper.v(10)
+
+
+Begin Point         : u_key2_mosaic_size_control/payload_reg[1]_syn_5.clk(triggered by clock pll_clk_100m)
+End Point           : u_algorithm_control_cdc/O_mode_pixel_reg[0]_syn_5.imf(triggered by clock HDMI720_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z1                                        pin: u_key2_mosaic_size_control/payload_reg[1]_syn_5.oqa
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[0],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_algorithm_control_cdc/O_mode_pixel_reg[0]_syn_5.imf
+LUT4 (reg)          x019y055z2                                        net: u_key2_mosaic_size_control/O_strength_pixel[0],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(19)
+
+
+Begin Point         : u_key2_mosaic_size_control/payload_reg[1]_syn_5.clk(triggered by clock pll_clk_100m)
+End Point           : u_algorithm_control_cdc/O_mode_pixel_reg[0]_syn_5.imf(triggered by clock HDMI1080_PIXEL_MUX)
+Check Type          : setup
+
+Delay Type          Location             Incr           Path   Level  Netlist Info
+--------------------------------------------------------------------  ---------------
+clk2q               x020y053z1                                        pin: u_key2_mosaic_size_control/payload_reg[1]_syn_5.oqa
+net (fo=2)                                                            net: u_key2_mosaic_size_control/payload[0],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(25)
+                                                                      pin: u_algorithm_control_cdc/O_mode_pixel_reg[0]_syn_5.imf
+LUT4 (reg)          x019y055z2                                        net: u_key2_mosaic_size_control/O_strength_pixel[0],  ../../../user_source/hdl_source/key2_mosaic_size_control.v(19)
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+﻿path,original_notice_excerpt,encrypted_body,vendor_directory_hint
+1080p+720p_PhaseB2_dev/user_source/hdl_source/csi_unpacket.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ethernet/ethernet_pll.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ethernet/ethernet_rgmii_io.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/hdmi_1_4b_transmitter_core_wrapper.enc.v,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/awb/awb.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/awb/ram/blk_mem_gen_awb_delay_signal.v,**  Copyright (c) 2012-2024 Anlogic Inc.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/awb/ram/blk_mem_gen_awb_delay_signal.vhd,--  Copyright (c) 2012-2024 Anlogic Inc. --  All Right Reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/awb/signal_delay.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/BLC/BLC.v,@Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/csi_unpacket_2lane.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/data128_96/data128_96.v,@Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/bilinear_interpolation.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic/blk_mem_gen_demosaic.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/demosaic.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/line_buffer_demosaic.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/mipi_to_raw_converter.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/raw_matrix_3x3_buffer.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/demosaic_4x_2_0/zhenghe.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/raw10_unpacket_2lane.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/isp/uial2axis.v,@Author      :,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/byte_aligner.enc.v,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/byte_aligner_wrapper.enc.sv,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/channel_aligner.enc.v,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/channel_aligner_wrapper.enc.sv,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/hs_detect.enc.v,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/mipi_dphy_rx_ph1p_mipiio_wrapper.sv,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/mipi_dphy_rx/ph1p_mipiio_rx_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_clk_top.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll0.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll1.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/include/ph1p_mis_define.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/init/ph1p_ddrphy_dram_init_ddr2.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv,,True,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_phy2mc_fifo_ctrl.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v,// Author : xtong,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddrphy_sync_rst_gen.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_board_delay.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_bus_matrix.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_ddrio.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_pad_type.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_apb_bridge.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_bankref_cfg.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_decode.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_execution.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_rphase_ctl.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wphase_ctl.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1066.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1333.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_400.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_533.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_667.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_800.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/top/ph1p_ddrmc_top.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/ph1p35_ddr/ph1p35_324_ddr_wrapper.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/hdl_source/pll_hdmi.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/signal_delay.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uial2axis/uial2axis.v,@Author      :,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uics500_cfg/uicfgcs500.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uics500_cfg/uics500regAE.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uics500_cfg/uii2c.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uiisp_beta/csi_unpacket_2lane.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/uiisp_beta/raw10_unpacket_2lane.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/hdl_source/vtc/uivtc.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+1080p+720p_PhaseB2_dev/user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.v,**	Copyright (c) 2012-2024 Anlogic Inc.,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/blk_mem_gen_awb_delay_signal/ram_f84573da5ab5.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/divider/divider_gate.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/MCU/MCU.v,**	Copyright (c) 2012-2024 Anlogic Inc.,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/MCU/MCU_f9f874759a41.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/PLL/PLL.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/PLL/RTL/include/define.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w128_d512_fifo/soft_fifo_al_4057d6b76aa6.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w40_d512_fifo/soft_fifo_al_2758cdf81c93.v,,False,True
+1080p+720p_PhaseB2_dev/user_source/ip_source/w40_d512_fifo/w40_d512_fifo.v,**	Copyright (c) 2012-2024 Anlogic Inc.,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ethernet/ethernet_pll.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,False
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ethernet/ethernet_rgmii_io.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v,,True,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_clk_top.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll0.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll1.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/include/ph1p_mis_define.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/init/ph1p_ddrphy_dram_init_ddr2.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv,,True,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_phy2mc_fifo_ctrl.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v,// Author : xtong,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddrphy_sync_rst_gen.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_board_delay.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_bus_matrix.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_ddrio.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_pad_type.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_apb_bridge.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_bankref_cfg.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_decode.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_execution.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_rphase_ctl.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wphase_ctl.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1066.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1333.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_400.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_533.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_667.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_800.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/top/ph1p_ddrmc_top.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/ph1p35_ddr/ph1p35_324_ddr_wrapper.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/hdl_source/signal_delay.v,The reference demo provided by Milianke is only used for learning.; @Author      :   XiaoQingquan,False,False
+HX1P35A_Cascade_B_clean/user_source/hdl_source/vtc/uivtc.v,*The reference demo provided by Milianke is only used for learning.; *Copyright: Copyright (c) MiLianKe; *All rights reserved.,False,False
+HX1P35A_Cascade_B_clean/user_source/ip_source/divider/divider_gate.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/MCU/MCU.v,**	Copyright (c) 2012-2024 Anlogic Inc.,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/MCU/MCU_f9f874759a41.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/PLL/PLL.v,**	Copyright (c) 2012-2025 Anlogic Inc.,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/PLL/RTL/include/define.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w128_d512_fifo/soft_fifo_al_4057d6b76aa6.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w40_d512_fifo/soft_fifo_al_2758cdf81c93.v,,False,True
+HX1P35A_Cascade_B_clean/user_source/ip_source/w40_d512_fifo/w40_d512_fifo.v,**	Copyright (c) 2012-2024 Anlogic Inc.,False,True

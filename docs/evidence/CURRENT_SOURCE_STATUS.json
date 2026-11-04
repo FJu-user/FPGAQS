@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2026-11-04",
+  "current_status": "TD_GUI_IMPLEMENTATION_AND_BITGEN_COMPLETE_WITH_WARNINGS",
+  "source_diff_from_previous_package": [],
+  "build_summary": "TD_GUI_BUILD_SUMMARY.json",
+  "previous_functional_evidence_same_user_source": {
+    "A_video_equivalence_checks": 455348,
+    "Logo_equivalence_checks": 125600,
+    "Mode18_package_full_RGB_cases": 88,
+    "candidate_RGB_quick_cases": 11,
+    "candidate_full_RGB_inherited_via_source_and_fixture_hash": true,
+    "mode17_core_identity_and_boundary_equivalence": "PASS",
+    "SG90_100MHz_and_strict_policy": "PASS",
+    "full_frame_Mode17_dual_instance_test": "TIMEOUT900s, not passed; preserved; unchanged core plus passing boundary and protocol/peripheral regressions"
+  },
+  "functional_regressions_rerun_by_packaging": false,
+  "FPGA_programmed_by_packaging": false,
+  "hardware_accepted": "No new hardware acceptance supplied for these bitstreams",
+  "timing_scope": "Nonnegative reported routed setup/hold under existing constraints; STA coverage below100% and unresolved warnings are retained. Not independent timing/CDC signoff."
+}
