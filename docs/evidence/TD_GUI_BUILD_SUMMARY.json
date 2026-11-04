@@ -1,0 +1,245 @@
+{
+  "A": {
+    "project": "1080p+720p_PhaseB2_dev/td_project/camera_to_dsi_display.al",
+    "tool": "Tang Dynasty 6.2.168116",
+    "device": "PH1P35MDG324",
+    "speed_grade": "-3",
+    "top": "design_top_wrapper",
+    "status": "IMPLEMENTED_BITGEN_COMPLETE_WITH_WARNINGS_HARDWARE_UNVERIFIED",
+    "reported_timing_ns": {
+      "SWNS": 0.1,
+      "STNS": 0.0,
+      "HWNS": 0.02,
+      "HTNS": 0.0
+    },
+    "STA_coverage_percent": 97.32,
+    "final_resources": {
+      "slice": {
+        "used": 19949,
+        "available": 21216,
+        "percent": 94.03
+      },
+      "eram": {
+        "used": 95,
+        "available": 108,
+        "percent": 87.96
+      },
+      "dsp": {
+        "used": 24,
+        "available": 40,
+        "percent": 60.0
+      },
+      "pll": {
+        "used": 5,
+        "available": 6,
+        "percent": 83.33
+      },
+      "lut6": {
+        "used": 19209,
+        "available": 21216,
+        "percent": 90.54
+      },
+      "reg": 24644
+    },
+    "warnings": {
+      "syn_1": {
+        "total": 142,
+        "critical": 13,
+        "codes": {
+          "HDL-7225": 1,
+          "HDL-5373": 1,
+          "HDL-5007": 41,
+          "HDL-5300": 1,
+          "HDL-5323": 5,
+          "HDL-5317": 10,
+          "HDL-5314": 20,
+          "HDL-5369": 1,
+          "HDL-5001": 10,
+          "HDL-5106": 2,
+          "SYN-5065": 2,
+          "SYN-5013": 10,
+          "SYN-5025": 3,
+          "SYN-5011": 20,
+          "SYN-6024": 6,
+          "SYN-6549": 6,
+          "SYN-5041": 3
+        }
+      },
+      "phy_1": {
+        "total": 21,
+        "critical": 3,
+        "codes": {
+          "PHY-5060": 2,
+          "PHY-5016": 9,
+          "PHY-7022": 3,
+          "PHY-5088": 6,
+          "PHY-5079": 1
+        }
+      }
+    },
+    "run_project_reference_checks": {
+      "syn_1": {
+        "project_sha256": "61e62df22bd9577bd7498fdb95ff8a9f15ab402e3954c3ad1ce6047391e4a86a",
+        "references_equal_current_al": true,
+        "registered_reference_count": 106,
+        "RunTime": "2026-11-04T17:24:17",
+        "settings_cfg_sha256": "0e8c3061915a9be359db76e923b69aae2a70fbf9572bfc242e1585ae0c13acc9"
+      },
+      "phy_1": {
+        "project_sha256": "aa829d85962b31b657b6ee6a912c40dcb001f12e997d96b5195e1ae7c770dc7c",
+        "references_equal_current_al": true,
+        "registered_reference_count": 106,
+        "RunTime": "2026-11-04T17:24:17",
+        "settings_cfg_sha256": "6003c0bac5b0f6efab43d0803dcd18c5c1337b44b7b1853ce4789e675e4d09b5"
+      }
+    },
+    "logs": {
+      "syn_1": {
+        "source_log_sha256": "31779bb5efdeb4f205fbbf1b1450e143f167181f554adea390e136dfd806fcd0",
+        "source_log_path_relative": "1080p+720p_PhaseB2_dev/td_project/camera_to_dsi_display_Runs/syn_1/run.log"
+      },
+      "phy_1": {
+        "source_log_sha256": "ad07f49472806dcaecf36a1c62574e2fb772f399a2f056785473f3ca8434f5a0",
+        "source_log_path_relative": "1080p+720p_PhaseB2_dev/td_project/camera_to_dsi_display_Runs/phy_1/run.log"
+      }
+    },
+    "no_multidrive_reported": true,
+    "no_abnormal_timing_path_reported": true,
+    "bitstreams": [
+      {
+        "path": "bitstreams/A/camera_to_dsi_display_A.bit",
+        "bytes": 1789539,
+        "sha256": "e485bb7abc3389fd61849c4b83c3f6ec0da5f332b4f125813a62c87bf25541d0",
+        "generated_local_time": "2026-11-04T17:45:35.953199+08:00",
+        "phy_1_equals_best_result": true
+      },
+      {
+        "path": "bitstreams/A/camera_to_dsi_display_A_compress.bit",
+        "bytes": 1596657,
+        "sha256": "3e11e1d4c34e2a7d9eefe2003855b8462da8bf19c9669ae3b3bb436a818d39a7",
+        "generated_local_time": "2026-11-04T17:45:35.571870+08:00",
+        "phy_1_equals_best_result": true
+      }
+    ],
+    "input_files_newer_than_native_synthesis_start_excluding_al": [],
+    "source_matches_previous_package": true
+  },
+  "B": {
+    "project": "HX1P35A_Cascade_B_clean/td_project/camera_to_dsi_display.al",
+    "tool": "Tang Dynasty 6.2.168116",
+    "device": "PH1P35MDG324",
+    "speed_grade": "-3",
+    "top": "design_top_wrapper",
+    "status": "IMPLEMENTED_BITGEN_COMPLETE_WITH_WARNINGS_HARDWARE_UNVERIFIED",
+    "reported_timing_ns": {
+      "SWNS": 0.104,
+      "STNS": 0.0,
+      "HWNS": 0.02,
+      "HTNS": 0.0
+    },
+    "STA_coverage_percent": 97.08,
+    "final_resources": {
+      "slice": {
+        "used": 19584,
+        "available": 21216,
+        "percent": 92.31
+      },
+      "eram": {
+        "used": 26,
+        "available": 108,
+        "percent": 24.07
+      },
+      "dsp": {
+        "used": 4,
+        "available": 40,
+        "percent": 10.0
+      },
+      "pll": {
+        "used": 4,
+        "available": 6,
+        "percent": 66.67
+      },
+      "lut6": {
+        "used": 18911,
+        "available": 21216,
+        "percent": 89.14
+      },
+      "reg": 16290
+    },
+    "warnings": {
+      "syn_1": {
+        "total": 140,
+        "critical": 6,
+        "codes": {
+          "HDL-5373": 27,
+          "HDL-5317": 10,
+          "HDL-5007": 33,
+          "HDL-5314": 20,
+          "HDL-5323": 3,
+          "HDL-5369": 1,
+          "HDL-5001": 6,
+          "SYN-5065": 1,
+          "SYN-5013": 10,
+          "SYN-5025": 3,
+          "SYN-5011": 18,
+          "SYN-6024": 6,
+          "SYN-5041": 2
+        }
+      },
+      "phy_1": {
+        "total": 6,
+        "critical": 0,
+        "codes": {
+          "PHY-5016": 5,
+          "PHY-5088": 1
+        }
+      }
+    },
+    "run_project_reference_checks": {
+      "syn_1": {
+        "project_sha256": "f284299f2fd53b3a0449e9b54ffc1e2eb9f31ce398fcc650e0ab2c2736a036b6",
+        "references_equal_current_al": true,
+        "registered_reference_count": 49,
+        "RunTime": "2026-11-04T17:24:21",
+        "settings_cfg_sha256": "0e8c3061915a9be359db76e923b69aae2a70fbf9572bfc242e1585ae0c13acc9"
+      },
+      "phy_1": {
+        "project_sha256": "7ab6f63ffb3df367780500ca2640c182f8fa61fbe702492f6f2abc27819de9be",
+        "references_equal_current_al": true,
+        "registered_reference_count": 49,
+        "RunTime": "2026-11-04T17:24:21",
+        "settings_cfg_sha256": "d431e16d7795b8b953e860fc34a6781f1947ae8494e3bce7432cb9aecfe3cee3"
+      }
+    },
+    "logs": {
+      "syn_1": {
+        "source_log_sha256": "ca7cbd77e80fa6c8f767c9a446175175ddf20a682d4e310a85df4c138a35f475",
+        "source_log_path_relative": "HX1P35A_Cascade_B_clean/td_project/camera_to_dsi_display_Runs/syn_1/run.log"
+      },
+      "phy_1": {
+        "source_log_sha256": "a21a63cc907208ea400ee7342843d1f8fd80a2b18f1d7f5df664beb335889e98",
+        "source_log_path_relative": "HX1P35A_Cascade_B_clean/td_project/camera_to_dsi_display_Runs/phy_1/run.log"
+      }
+    },
+    "no_multidrive_reported": true,
+    "no_abnormal_timing_path_reported": true,
+    "bitstreams": [
+      {
+        "path": "bitstreams/B/camera_to_dsi_display_B.bit",
+        "bytes": 1789539,
+        "sha256": "01ebc06f4ac3389451ecf1eb5ca37381bfb876e1c63060edb09cf00d14fbd274",
+        "generated_local_time": "2026-11-04T17:38:18.411006+08:00",
+        "phy_1_equals_best_result": true
+      },
+      {
+        "path": "bitstreams/B/camera_to_dsi_display_B_compress.bit",
+        "bytes": 1303345,
+        "sha256": "993897c021fd3773937f585fdd6d4f75c28031cce7cb209c3d96f58a0e361843",
+        "generated_local_time": "2026-11-04T17:38:18.113390+08:00",
+        "phy_1_equals_best_result": true
+      }
+    ],
+    "input_files_newer_than_native_synthesis_start_excluding_al": [],
+    "source_matches_previous_package": true
+  }
+}
