@@ -1,0 +1,2 @@
+# Preserve exact delivered source, IP and initialization bytes across Git checkouts.
+* -text

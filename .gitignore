@@ -1,0 +1,46 @@
+# Agent-local files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.codex*/
+.claude/
+.agents/
+.serena/
+# Build/run output
+*_Runs/
+rebuild_*/
+__pycache__/
+*.py[cod]
+*.log
+*.logw
+*.db
+*.qdb
+*.qpg
+*.qtl
+*.dmp
+*.vvp
+*.vcd
+*.wlf
+transcript
+# Historical versions and archives
+verified_build_*/
+verification*/
+accepted_backups/
+rollback*/
+source_snapshot/
+before/
+*.bit
+*.zip
+*.rar
+# Local environments and separately obtained tools
+.venv/
+venv/
+_vendor/
+*.exe
+.env
+.env.*
+# Deliberately no blanket hidden-file or *.txt ignore: IP params are required.
+
+# Current, explicitly reviewed build artifacts only
+!/bitstreams/A/*.bit
+!/bitstreams/B/*.bit
