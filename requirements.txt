@@ -1,0 +1,1 @@
+-r 1080p+720p_PhaseB2_dev/tools/requirements_uart.txt
